@@ -1,0 +1,20 @@
+set(CMAKE_PREFIX_PATH "/home/whou/lib")
+SET(CMAKE_FC_COMPILER "/home/root/intel-oneAPI/oneAPI/mpi/latest/bin/mpiifort")
+set(CMAKE_C_COMPILER "/home/root/intel-oneAPI/oneAPI/mpi/latest/bin/mpiicc")
+set(CMAKE_CXX_COMPILER "/home/root/intel-oneAPI/oneAPI/mpi/latest/bin/mpiicpc")
+
+
+set(HDF5_ROOT "/home/whou/lib/hdf5")
+set(HDF5_INCLUDE_DIRS "/home/whou/lib/hdf5/include")
+set(HDF5_LIBRARY_DIRS "/home/whou/lib/hdf5/lib")
+#set(HDF5_ROOT "/home/whou/hdf5-1.10.4-parallel")
+#set(HDF5_INCLUDE_DIRS "/home/whou/hdf5-1.10.4-parallel/include")
+#set(HDF5_LIBRARY_DIRS "/home/whou/hdf5-1.10.4-parallel/lib")
+
+set(xtl_DIR "/home/whou/lib/xtl/lib64/cmake/xtl")
+set(xtensor_DIR "/home/whou/lib/xtensor/lib64/cmake/xtensor")
+set(xtensor-blas_DIR "/home/whou/lib/xtensor-blas/lib64/cmake/xtensor-blas")
+#set(xtensor-blas_DIR "/home/root/intel-oneAPI/oneAPI/mkl/latest/lib/cmake/mkl")
+set(xsimd_DIR "/home/whou/lib/xsimd")
+
+set(BLAS_openblas_LIBRARY "/home/whou/lib/OpenBLAS/lib/libopenblas.so")
